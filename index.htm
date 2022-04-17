@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlamesProject</title>
+    <link rel="stylesheet" href="flames.css">
+    <script src="flames.js"></script>
+</head>
+
+<body oncontextmenu="return false">
+    <marquee behavior="scroll" direction="left" scrollamount="10">Welcome to FLAMES Calculator!
+        A trip back to your childhood!!!!
+    </marquee>
+
+    <div class="parent">
+        <div class="images">
+            <img
+                src="Friend.png">
+            <img src="Love.png">
+            <img src="Affection.png">
+            <img
+                src="Marriage.png">
+            <img src="Enemy.png">
+            <img src="Siblings.png">
+        </div>
+
+
+
+        <!-- About FLAMES -- click to expand -->
+        <div class="special">
+            <button id="upper" onclick="about1()" type="button">&#9654; About Flames</button>
+            <div id="description1">
+                <b>FLAMES</b> stands for :<br>
+                F - Friend <br>
+                L - Love <br>
+                A - Affection <br>
+                M - Marriage <br>
+                E - Enemies <br>
+                S - Siblings <br>
+                <br>
+                Flames is a funny game which determines relationship between two people based on the number of common
+                letters of their name.
+                The relationship is obviously <b>HYPOTHETICAL</b>.
+            </div>
+            <br>
+            <button id="disclaimer" onclick="about2()" type="button">&#9654; Disclaimer</button>
+            <div id="description2">
+                This Website is only for fun. This <b>FLAMES</b> calculator does <b>NOT</b> determine the actual
+                relationship.
+                <br>
+            </div>
+        </div>
+        <!-- ---------------------------------------------------- -->
+        <div class="child">
+            <input type="text" id="p1" placeholder="Name - 1">
+        </div>
+        <div class="child">
+            <input type="text" id="p2" placeholder="Name - 2">
+        </div>
+            <button onclick="main()" type="submit" id="btn"> GO!</button>
+        <br><br>
+
+
+
+
+        <div class="fortext" id="friend">
+            <img
+                src="Friend.png">
+            <br>
+            Friends
+        </div>
+        <div class="fortext" id="love">
+            <img src="Love.png">
+            <br>
+            Love
+        </div>
+        <div class="fortext" id="affec">
+            <img src="Affection.png">
+            <br>
+            Affection
+        </div>
+        <div class="fortext" id="marr">
+            <img
+                src="Marriage.png">
+            <br>
+            Marriage
+        </div>
+        <div class="fortext" id="enem">
+            <img src="Enemy.png">
+            <br>
+            Enemies
+        </div>
+        <div class="fortext" id="sib">
+            <img src="Siblings.png">
+            <br>
+            Siblings
+        </div>
+
+
+
+        <div class="author">
+            <img
+                src="https://media-exp1.licdn.com/dms/image/C5603AQFsizgLZ3dv9w/profile-displayphoto-shrink_800_800/0/1627566342043?e=1645660800&v=beta&t=m7Z5kuWyO4aGfx07tXRUVXWHxn8DrGMdz7fjnevnXcM">
+            <hr>
+            Website Designer : <br><br> <a href="https://www.linkedin.com/in/iamssuraj/" id="link" target="_blank">SURAJ
+                SANGANBHATLA</a>
+        </div>
+    </div>
+</body>
+
+</html>

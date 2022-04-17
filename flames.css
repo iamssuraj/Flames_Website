@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&family=Yanone+Kaffeesatz:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+body {
+    background-image: url("https://img.freepik.com/free-vector/abstract-geometric-shape-connection-with-3d-cubes-background_42705-105.jpg?size=626&ext=jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+marquee {
+    background-color: white;
+    color: black;
+    /* font-size: 2.5rem; */
+    margin-top: 2rem;
+    font-family:'Quicksand','Helvetica', sans-serif;
+}
+
+.parent {
+    width: 60%;
+    margin-top: 2rem;
+    background-color: lightblue;
+    margin-left: 10%;
+    margin-right: 20%;
+    display: block;
+    padding: 10%;
+    border-radius: 1.5%;
+    box-shadow: 1px 0px 10px black;
+}
+
+.child {
+    background-color: darkblue;
+    margin: 5%;
+    padding: 10%;
+    border-radius: 1.5%;
+    box-shadow: 1px 0px 10px black;
+    margin-left: 15%;
+}
+
+.child>input {
+    width: 90%;
+    height: 50%;
+}
+
+input {
+    width: 50%;
+    font-size: 130%;
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family:'Quicksand','Helvetica', sans-serif;
+}
+
+#btn {
+    display: block;
+    margin: auto;
+    background-color: darkorange;
+    color: black;
+    padding: 2%;
+    border-radius: 20%;
+    box-shadow: 0px 0px 10px black;
+}
+
+#btn:hover {
+    background-color: black;
+    color: orange;
+}
+
+input:hover,
+input:focus
+
+/*focus is keyword fopr selected element*/
+    {
+    background-color:lightcyan;
+}
+
+.images {
+    margin-bottom: 5%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 15%;
+    height: 20%;
+    /* max-width: 2000px; */
+}
+
+.author {
+    color: lavender;
+    font-size: 150%;
+    text-align: center;
+    background-color: black;
+    margin-top: 5%;
+    padding-bottom: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 5%;
+    box-shadow: 0px 0px 10px black;
+    position: relative;
+}
+
+.parent>.author>img {
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 50%;
+    /* box-shadow: 0px 0px 10px white; */
+}
+
+a {
+    padding: 2%;
+}
+
+#link {
+    text-decoration: none;
+    color: red;
+}
+
+#link:hover {
+    background-color: white;
+    color: black;
+}
+
+.fortext {
+    font-family: 'PT Serif', serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#friend {
+    height: 150%;
+    width: 150%;
+    margin-left: -25%;
+    display: none;
+}
+
+#love {
+    height: 150%;
+    width: 150%;
+    margin-left: -25%;
+    display: none;
+}
+
+#affec {
+    height: 150%;
+    width: 150%;
+    margin-left: -25%;
+    display: none;
+}
+
+#marr {
+    height: 150%;
+    width: 150%;
+    margin-left: -25%;
+    display: none;
+}
+
+#enem {
+    height: 150%;
+    width: 150%;
+    margin-left: -25%;
+    display: none;
+}
+
+#sib {
+    height: 150%;
+    width: 150%;
+    margin-left: -25%;
+    display: none;
+}
+
+#description1 {
+    display: none;
+    color:orange;
+    background-color:black;
+    font-size: 120%;
+    font-family:'Quicksand','Helvetica', sans-serif;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    margin-left: 4%;
+    border-radius: 2%;
+}
+#description2 {
+    display: none;
+    color:orange;
+    background-color:black;
+    font-size: 120%;
+    font-family:'Quicksand','Helvetica', sans-serif;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    margin-left: 4%;
+    border-radius: 2%;
+}
+#description1:hover,#description2:hover
+{
+    opacity: 0.9;
+}
+
+#upper {
+    margin-left: 0%;
+    margin-bottom: 2%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    border: none;
+    outline: none;
+    background: none;
+    text-align: center;
+    font-size: 150%;
+}
+#disclaimer
+{
+    margin-left: 0%;
+    margin-bottom: 2%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    border: none;
+    outline: none;
+    background: none;
+    text-align: center;
+    font-size: 150%;
+
+}
+#upper:hover,#disclaimer:hover {
+    opacity: 0.4;
+}
+
+@media (max-width:320px) {
+    marquee {
+        font-size: 1rem;
+    }
+    #btn
+    {
+        font-size: 10px;
+    }
+    .child
+    {
+        width: 100px;
+        margin-left: 6%;
+    }
+    .child>input,input::-webkit-input-placeholder
+    {
+        font-size:10px;
+    }
+    #upper
+    {
+        font-size: 1rem;
+    }
+    #disclaimer
+    {
+        font-size: 1rem;
+    }
+    #description1
+    {
+        font-size: 0.5rem;
+        margin-left: 10%;
+    }
+    #description2
+    {
+        font-size: 0.5rem;
+        margin-left: 10%;
+    }
+    .author
+    {
+        font-size: 10px;
+    }
+    a
+    {
+        font-size:8px;
+    }
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    marquee {
+        font-size: 1rem;
+    }
+    #btn
+    {
+        font-size: 15px;
+    }
+    .child
+    {
+        width: 120px;
+        margin-left: 15%;
+    }
+    .child>input,input::-webkit-input-placeholder
+    {
+        font-size:18px;
+    }
+    #upper
+    {
+        font-size: 1.1rem;
+    }
+    #description1
+    {
+        font-size: 0.8rem;
+    }
+    #disclaimer
+    {
+        font-size: 1.1rem;
+    }
+    #description2
+    {
+        font-size: 0.8rem;
+    }
+    .author
+    {
+
+        font-size: 10px;
+    }
+    a
+    {
+        font-size:10px;
+    }
+
+}
+
+@media (min-width:481px) and (max-width:768px) {
+    marquee {
+        font-size: 2rem;
+    }
+    #btn
+    {
+        font-size: 35px;
+    }
+    .child
+    {
+        width: 150px;
+        margin-left: 22%;
+    }
+    .child>input,input::-webkit-input-placeholder
+    {
+        font-size:25px;
+    }
+    #upper
+    {
+        font-size: 2rem;
+    }
+    #description1
+    {
+        font-size: 1.5rem;
+    }
+    #disclaimer
+    {
+        font-size: 2rem;
+    }
+    #description2
+    {
+        font-size: 1.5rem;
+    }
+    .author
+    {
+        width: 250px;
+        font-size: 30px;
+        margin: auto;
+    }
+    a
+    {
+        font-size:25px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    marquee {
+        font-size: 2rem;
+    }
+    #btn
+    {
+        font-size: 35px;
+    }
+    .child
+    {
+        width: 350px;
+        margin-left: 13%;
+    }
+    .child>input,input::-webkit-input-placeholder
+    {
+        font-size:50px;
+    }
+    #upper
+    {
+        font-size: 2.5rem;
+        margin-left:4%;
+    }
+    #description1
+    {
+        font-size: 1.7rem;
+    }
+    #disclaimer
+    {
+        font-size: 2.5rem;
+        margin-left:4%;
+    }
+    #description2
+    {
+        font-size: 1.7rem;
+    }
+    .author
+    {
+        font-size: 35px;
+    }
+    a
+    {
+        font-size:30px;
+    }
+
+}
+
+@media (min-width:1025px) and (max-width:1280px) {
+    marquee {
+        font-size: 2.3rem;
+    }
+    #btn
+    {
+        font-size: 40px;
+    }
+    .child
+    {
+        width: 350px;
+        margin-left: 18%;
+    }
+    .child>input,input::-webkit-input-placeholder
+    {
+        font-size:40px;
+    }
+    #upper
+    {
+        font-size: 2.1rem;
+        margin-left: 3%;
+    }
+    #description1
+    {
+        font-size: 1.3rem;
+    }
+    #disclaimer
+    {
+        font-size: 2.1rem;
+        margin-left: 3%;
+    }
+    #description2
+    {
+        font-size: 1.3rem;
+    }
+    .author
+    {
+        font-size: 30px;
+    }
+    a
+    {
+        font-size:30px;
+    }
+    
+}
+
+@media (min-width:1281px) {
+    marquee {
+        font-size: 2.5rem;
+    }
+    #btn
+    {
+        font-size: 3rem;
+    }
+    .child
+    {
+        width: 50%;
+        margin-left: 20%;
+    }
+    .child>input,input::-webkit-input-placeholder
+    {
+        font-size:30px;
+    }
+    #upper
+    {
+        font-size: 2rem;
+        margin-left: 3%;
+    }
+    #description1
+    {
+        font-size: 1.5rem;
+    }
+    #disclaimer
+    {
+        font-size: 2rem;
+        margin-left: 3%;
+    }
+    #description2
+    {
+        font-size: 1.5rem;
+    }
+    .author
+    {
+        font-size: 30px;
+    }
+    a
+    {
+        font-size:30px;
+    }
+
+}
