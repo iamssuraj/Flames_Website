@@ -173,19 +173,19 @@ function allLetter(inputtxt) {
     }
 }
 function about1() {
-    if (document.getElementById("description1").style.display === "none") {
-        document.getElementById("description1").style.display = "block";
+    if (document.getElementById("description1").style.display === "block") {
+        document.getElementById("description1").style.display = "none";
     }
     else {
-        document.getElementById("description1").style.display = "none";
+        document.getElementById("description1").style.display = "block";
     }
 }
 function about2() {
-    if (document.getElementById("description2").style.display === "none") {
-        document.getElementById("description2").style.display = "block";
+    if (document.getElementById("description2").style.display === "block") {
+        document.getElementById("description2").style.display = "none";
     }
     else {
-        document.getElementById("description2").style.display = "none";
+        document.getElementById("description2").style.display = "block";
     }
 }
 function errorhandle2() {
