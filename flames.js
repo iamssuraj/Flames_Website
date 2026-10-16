@@ -164,7 +164,7 @@ function f1(s1, s2) {
     printer(k)
 }
 function allLetter(inputtxt) {
-    var letters = /^[A-Za-z]+$/;
+    var letters = /^[A-Za-z\s]+$/;
     if (inputtxt.match(letters)) {
         return true;
     }
